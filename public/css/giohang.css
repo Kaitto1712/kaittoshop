@@ -1,0 +1,50 @@
+.gio-hang {
+	margin: 100px auto;
+}
+.gio-hang table{
+	width: 100%;
+}
+.title{
+	margin: 30px;
+}
+ tr td, tr th{
+	text-align: initial;
+	padding: 20px;
+	border-bottom: 2px solid #ccc;
+}
+.title h2{
+	box-shadow: 5px 10px #888888;
+    padding: 20px;
+    font-size: 3rem;
+}
+#delete{
+	padding: 2px 8px;
+	border: 1px solid #ccc;
+	border-radius: 50%;
+	color: black;
+	font-weight: 700;
+}
+#delete:hover{
+	color: white;
+	background-color: black;
+}
+.gio-hang span{
+	font-size: 10px;
+}
+td.text-right a,td.text-center a{
+	padding: 10px 20px;
+	color: white;
+	background-color: #4e4949;
+	font-weight: 500;
+	transition: 0.3s;
+	border: 2px solid #4e4949;
+}
+td.text-right a:hover,td.text-center a:hover{
+	border: 2px solid #4e4949;
+	color: #4e4949;
+	background-color: white;
+	transition: 0.3s;
+}
+td.text-center a{
+	padding: 20px 40px;
+}

@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,700i,900&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-decoration: none;
+}
+.container{
+	max-width: 1200px !important;
+}
+.col-md-3{
+    padding-left: 0px !important;
+}
+.justify-content-around{
+    text-align: center;
+}
+
+/* header */
+header .main-menu ul li,header .main-menu img{
+  display: inline-block;
+}   
+header .main-menu ul{
+    margin-top: 10px;
+    margin-bottom: 6px;
+}
+ a:hover{
+    text-decoration: none;
+}
+header a{
+    color: #4a4343;
+}
+header #cart{
+    position: absolute;
+    top: 8px;
+}
+#cart-item{
+    display: none;
+}
+header #cart #cart-item .item{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom:  1px solid #ccc;
+}
+header #cart #cart-item .item p{
+    color: #b3adad;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 5px; 
+    line-height: 20px;
+}
+header #cart #cart-item .btn a{
+    padding: 5px 10px;
+    color: #fff;
+    background-color: #333;
+    font-weight: 700;
+}
+header #cart #cart-item .item .content{
+    padding: 0px 15px;
+}
+header #cart #cart-item .item .col-md-10{
+    padding-left: 35px !important;
+}
+header #cart #cart-item{
+    width: 320px;
+    padding: 40px 20px;
+    background-color: white;
+    position: absolute;
+    top: 25px;
+    right: -10px;
+    margin-top: 13px;
+    z-index: 999;
+    border: 1px solid;
+}
+header #cart #cart-item:before{
+    content: '';
+    width: 20px;
+    height: 20px;
+    z-index: -1;
+    clip-path: polygon(51% 0, 100% 52%, 100% 100%, 1% 100%, 0 52%);
+    background: white;
+    display: block;
+    position: absolute;
+    top: -11px;
+    right: 13px;
+    z-index: 999;
+} 
+header #cart #cart-item .item img{
+    width: 50px;
+    height: 50px;
+}
+header  #count{
+    padding: 1px 7px;
+    border: 2px solid #4a4343;
+    border-radius: 4px;
+}
+header  #count:hover{
+    cursor: pointer;
+    background-color: #4a4343;
+    color: white;
+}
+.active{
+    display: inline-block !important;
+}
+header .main-menu ul li a{
+  border: 0;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+  color: #cecece;
+  transition: 0.5s;
+  font-weight: 600;
+  padding: 13px;
+}
+header .main-menu ul li a:hover{
+    color: white;
+    transition: 0.5s;
+}
+header .row{
+	padding: 10px 0;
+}
+header{
+	padding: 15px;
+	background-color: rgba(0,0,0,0.07);
+}
+/* end-header */
+
+/* styles */
+.styles {
+    margin-bottom: 70px;
+    margin-top: 40px;
+}
+.styles .col-md-4{
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    transition: 0.5s;
+}
+.styles .col-md-4:hover > a .text{
+    transition: 0.5s;
+    padding:50px;
+   transform: translateY(-120px);
+}
+.styles .col-md-4{
+    width: 90%;
+}
+.styles .col-md-4 .text{
+    background-color: #40606596;
+    color: white;
+    width: 92%;
+    padding: 20px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    transition: 0.5s;
+    transform: translateY(10px);
+}
+.styles .col-md-4 img{
+ width: 100%;
+}
+/* end-styles */
+
+/* content */
+section .girl .card .content .sell{
+    color: red;
+    text-decoration: line-through;
+    position: absolute;
+    right: 12px;
+    font-size: 14px;
+}
+.girl>.row{
+    margin-bottom: 20px;
+}
+.girl .card{
+    text-align: center;
+}
+.girl .card span{
+    font-weight: 400;
+}
+.girl img{
+   max-height: 300px;
+   min-height: 300px;
+    width: 100%;
+}
+.girl .col-md-3{
+    margin-bottom: 20px;
+}
+.girl .card .content a,.girl .card .content button{
+    cursor: pointer;
+    border: none;
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 38px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #333;
+    padding: 0;
+    margin: 15px;
+    width: 90%;
+    text-decoration: none;
+}
+.girl .card h2{
+    margin-top: 10px;
+    padding-left: 20px;
+    text-transform: uppercase;
+    line-height: 1.5; 
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1;
+    color: #333;
+    margin: 25px 0 12px;
+    padding: 0;
+}
+/* end-content */
+
+/* about */
+.about .content{
+    z-index: 1;
+    color: white;
+    font-size: 1.3em;
+    font-weight: 400;
+    line-height: 2em;
+    text-shadow: 0px 0px 50px rgba(0,0,0,0.3);
+}
+.about .about-style{
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+   background-color: #757575;
+    opacity: 0.5;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    top: 0;
+    left: 0;
+}
+.about-fluid{
+    margin-top: 100px;
+}
+.about{
+    z-index: -2;
+    position: relative;
+    width: 1300px !important;
+    border-style: solid;
+    border-width: 1px 0px 1px 0px;
+    border-color: rgba(0,0,0,0.08);
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 150px 150px 150px 150px;
+    background-image: url('../../public/img/bg.jpg');
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* about */
+
+/* service */
+.service {
+    margin-top: 50px;
+}
+.service .item{
+    text-align: center;
+}
+.service img{
+    width: 110px;
+}
+.service .item h3{
+    margin: 20px 20px;
+    font-family: 'Lato',sans-serif;
+    font-weight: 700;
+    line-height: 1.4;
+    font-size: 20px;
+}
+.service .item p{
+    border: 0;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+/* end-service */
+
+/* banner */
+.banner{
+    text-align: center;
+    margin: 100px 0px;
+}
+.banner img{
+    transition-duration: .3s;
+    transition-property: transform;
+}
+.banner img:hover{
+  transform: scale(1.1);
+}
+/* end-banner */
+
+footer h3{
+    font-weight: 400;
+    margin-bottom: 1em;
+    line-height: 1.5;
+    font-size: 1.4rem;
+    color: #000000;
+}
+footer a:hover{
+    text-decoration: none;
+    transition: 0.5s;
+}
+footer a{
+    text-decoration: none;
+    border: 0;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0;
+    color: #434343;
+    padding: 0;
+    transition: 0.5s;
+    vertical-align: baseline;
+}
+
+/* footer */
+.owl-carousel .item a{
+    color: black;
+}
+.owl-carousel .item a img{
+    margin-bottom: 10px;
+}
+.owl-carousel .item a span{
+    margin-left: 10px;
+}
+.motasp img{
+    width: 80%;
+}

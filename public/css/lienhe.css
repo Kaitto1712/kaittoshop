@@ -1,0 +1,14 @@
+.lien-he{
+	margin-bottom: 100px;
+}
+.lien-he h3{
+	margin-bottom: 50px;
+}
+.lien-he table tr td{
+	padding: 20px;
+	 border: 1px solid #000000;
+}
+.lien-he table{
+	border-collapse: collapse;
+	width: 100%;
+}

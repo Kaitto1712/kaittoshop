@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,700i,900&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-decoration: none;
+}
+header #cart {
+  position: absolute;
+  top: 0px !important;
+  color: white;
+}
+header #count{
+  border: 2px solid #dcc1c1 !important;
+}
+.container{
+	max-width: 1200px !important;
+}
+.justify-content-around{
+  text-align: center;
+}
+header .main-menu ul li,header .main-menu img{
+  display: inline-block;
+}   
+header .main-menu ul{
+  margin-top: 10px;
+  margin-bottom: 6px;
+}
+ a:hover{
+    text-decoration: none;
+}
+header a{
+    color: #4a4343;
+}
+header .md-1{
+    position: relative;
+}
+header  #count{
+    padding: 1px 7px;
+    border: 2px solid #4a4343;
+    border-radius: 4px;
+    position: absolute;
+    top: 8px;
+}
+header  #count:hover{
+    background-color: #4a4343;
+    color: white;
+}
+header .main-menu ul li a{
+  border: 0;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+  color: #cecece;
+  transition: 0.5s;
+  font-weight: 600;
+ padding: 13px;
+}
+header .main-menu ul li a:hover{
+  color: white;
+  transition: 0.5s;
+}
+header .row{
+	padding: 10px 0;
+}
+header{
+	padding: 15px;
+	background-color: rgba(0,0,0,0.07);
+}
+/* end-header */
+
+#info{
+  padding: 0px 80px;
+  margin-bottom: 100px;
+}
+.container-fluid section .col-md-5{
+  padding: 10em 0em 15em 0em;
+  background-color: #ededef;
+}
+.container-fluid #info .item{
+  padding:75px;
+}
+#info .row{
+  text-align: center;
+}
+#info .col-md-7{
+  background-image: url('../../public/img/bg-gioithieu2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#info .content{
+  padding: 50px;
+}
+
+
+    
+.describe{
+ 
+  background-color: #f5f5f5;
+}
+.describe h2{
+  
+    /* border: 2px solid; */
+    padding: 20px;
+}
+.describe h1{
+  margin: 20px;
+  font-size: 4em;
+    text-transform: uppercase;
+    line-height: 1;
+}
+.describe p{
+  margin-bottom: 40px;
+
+}
+.describe img{
+  width: 40%;
+  border-radius: 50%;
+  margin-bottom: 40px;
+}
+.describe .item{
+  width: 500px;
+     margin: 20px auto 100px !important;
+    padding: 30px 30px 30px 30px;
+    background-color: #ffffff;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.15);
+}
+
+/* end-banner */
+footer h3{
+    font-weight: 400;
+    margin-bottom: 1em;
+    line-height: 1.5;
+    font-size: 1.4rem;
+        color: #000000;
+}
+footer a:hover{
+    text-decoration: none;
+    transition: 0.5s;
+}
+footer a{
+    text-decoration: none;
+    border: 0;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0;
+    color: #434343;
+    padding: 0;
+    transition: 0.5s;
+    vertical-align: baseline;
+}
+footer .container-fluid{
+     border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: rgba(122,122,122,0.13);
+}
+footer  .copy-right{
+    padding:40px 0px; 
+}
+footer  .copy-right div{
+       border: 0;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0;
+    vertical-align: baseline;
+}
+footer  .copy-right div:last-child{
+  text-align: right;
+}
+/* footer */

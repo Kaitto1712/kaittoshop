@@ -1,0 +1,49 @@
+.form h2{
+	margin-bottom: 30px;
+}
+.form{
+	margin: 100px auto;
+}
+.form .col-md-5 {
+	border: 1px solid #ced4da;
+    border-radius: .25rem;
+    padding:20px 30px;
+}
+.form .col-md-5 p{
+	float: right;
+	cursor: pointer;
+	text-decoration: underline;
+	color: #17a2b8;
+}
+.info{
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.info ul li{
+	list-style: none;
+	padding:10px 20px;
+    border: 1px solid rgba(0,0,0,.1);
+    transition: 0.2s;
+   cursor: pointer;
+}
+.info ul > li:first-child{
+	color: white;
+	background-color: black;
+	cursor: auto;
+}
+.active-li{
+	margin-left: 10%;
+}
+.err{
+	color: red;
+	margin-bottom: 20px;
+}
+.don-hang table{
+	width: 100%;
+}
+.don-hang table tr{
+	border-bottom: 1px solid #ccc;
+}
+.don-hang table tr th,.don-hang table tr td{
+	padding: 20px;
+}
